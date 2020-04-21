@@ -1,0 +1,113 @@
+body{
+	border: 0px;
+	margin: 0px;
+	background-color: #fcf4a3;
+}
+#container{
+	height: 120px;
+	background-color: #fcf4a3;
+}
+h1{
+	margin-left: 75px;
+	margin-top: 0px;
+	padding-top: 50px;
+	font-size: 50px;
+	
+}
+sub{
+	font-size: 15px;
+	color: maroon;
+}
+.imagec{
+	float: left;
+}
+#navbar{
+	background-color: black;
+	color: white;
+	height:30px;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+    
+
+	
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+ul{
+	display: inline;
+	color: white;
+}
+li{
+	display: inline;
+	cursor: pointer;
+	
+ 
+}
+a:hover{
+	background-color: white;
+	color: black;
+}
+.slide-container{
+	width: 1350px;
+	height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	text-align: center;
+	
+}
+.image-container{
+	width: 6750px;
+	height: 450px;
+	position: relative;
+	transition: left 2s;
+	-webkit-transition: left 2s;
+	-moz-transition: left 2s;
+	-o-transition: left 2s;
+}
+.slider-image{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.button-container{
+	top: -20px;
+	position: relative;
+}
+.slider-button{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	background-color: white;
+}
+#slider-image-1:target ~ .image-container{
+	left: 0px;
+}
+#slider-image-2:target ~ .image-container{
+	left: -1350px;
+}
+#slider-image-3:target ~ .image-container{
+	left: -2700px;
+}
+#slider-image-4:target ~ .image-container{
+	left: -4050px;
+}
+#slider-image-5:target ~ .image-container{
+	left: -5400px;
+}
+p{
+	height: 40px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	padding: 15px;
+	padding-bottom: 0px;
+}
