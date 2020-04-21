@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bookdecorator.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+<script src="jscode.js"></script>
+</head>
+<body>
+<div id="main">
+<h2><i> Chanakya </i><sub> at Delhi </sub> 
+<img src="logo.png" class="imagec" ></h2>  
+
+</div>
+<div id= "navbar">
+<ul>
+<li> <a href="home.html"> Home </a></li> &nbsp &nbsp &nbsp &nbsp
+<li> <a href="accomodation.html">Accomodation </a></li> &nbsp &nbsp &nbsp &nbsp
+<li> <a href="conference.html">Conferences & Events </a></li> &nbsp &nbsp &nbsp &nbsp
+<li> <a href="dining.html">Dining </a> </li> &nbsp &nbsp &nbsp &nbsp
+<li> <a href="contact.html">Contact </a></li> &nbsp &nbsp &nbsp &nbsp
+<li><a href="booking.html"> Online Booking </a></li> 
+</ul>
+</div>
+
+<h3> Fill out the form below and click "submit" to confirm booking. </h3>
+<form id="theForm" action="message.html" method="post" onSubmit="return validateTextbox();">
+<div class="row">
+<label for="name">Title:</label>
+<select>
+<option value="Mr."> Mr.</option>
+<option value="Mrs."> Mrs.</option>
+<option value="Ms."> Ms.</option>
+</select> &nbsp &nbsp
+<label for="name">First Name:<sup>*</sup></label>
+<input type="text" id="name" name=""> &nbsp &nbsp
+<label for="name">Last Name:</label>
+<input type="text" id="name" name=""> 
+</div><br>
+
+<div class="row">
+<label for="address"> Address:<sup>*</sup></label> 
+<input type="text" id="address" name="">
+</div><br>
+
+<div class="row">
+<label for="phone">Phone:<sup>*</sup></label>
+<input type="tel" id="phone" name="">
+</div><br>
+
+<div class="row">
+<label for="email">E-mail:<sup>*</sup></label>
+<input type="text" id="email" name="">
+</div><br>
+
+
+
+<div class="row">
+<label for="name">Type of Room:</label>
+<select>
+<option value="null">  </option>
+<option value="standard"> Standard</option>
+<option value="deluxe"> Deluxe</option>
+<option value="executive"> Executive</option>
+<option value="suites"> Suites</option>
+</select> 
+
+</div><br>
+
+<div class="row">
+<label for="name">Conference:</label>
+<select>
+<option value="null">  </option>
+<option value="regal">The Regal</option>
+<option value="royal"> The Royal</option>
+</select>
+</div><br>
+
+<div class="row">
+<label for="checkin">Check-In:</label>
+<input type="date" id="checkin" name="">
+</div><br>
+
+<div class="row">
+<label for="checkout">Check-Out:</label>
+<input type="date" id="checkout" name="">
+</div>
+
+<button>Submit</button>
+<div id="footer">
+<p1>&copy; 2020 Chanakya.com. All Rights Reserved. </p1>
+</div>
+</body>
+</html>
